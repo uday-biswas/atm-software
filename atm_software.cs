@@ -20,7 +20,7 @@ public class account
         Console.Write("                                       ");
         Console.WriteLine("===============================");
         this.summary();                                               //firstly getting the details of the account.
-        Console.WriteLine("Enter the account number to transfer: ");
+        Console.Write("\nEnter the account number to transfer: ");
         string tra = Console.ReadLine();
         Console.Write("\nPlease enter the amount to be transferred: ");
         int amount = Convert.ToInt32(Console.ReadLine());                 //taking the money input to be transferred.
